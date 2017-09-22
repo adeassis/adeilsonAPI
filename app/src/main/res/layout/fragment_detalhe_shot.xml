@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.adeilsonassis.processoseletivo.Fragments.DetalheShotFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="6dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/detalhe_shot_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/detalhe_shot_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ic_nophoto"/>
+
+        <TextView
+            android:id="@+id/detalhe_shot_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="descrition"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/detalhe_shot_viewscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="views_count"/>
+
+        <TextView
+            android:id="@+id/detalhe_shot_comments_count"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="comments_count"/>
+
+        <TextView
+            android:id="@+id/detalhe_shot_cratedat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="created_at"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
